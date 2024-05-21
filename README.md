@@ -3,7 +3,7 @@ This project was built using the parcel project builder
 
 ## How to Use the Repository
 
-1. Clone the repository: `git clone https://github.com/ShevchenkoOl/image-search.git`
+1. Clone the repository: `git clone https://github.com/ShevchenkoOl/image_search.git`
 
 2. Navigate to the relevant section to explore the corresponding material.
 
