@@ -2,7 +2,7 @@
   "name": "image_search",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://ShevchenkoOl.github.io/image_search.git",
+  "homepage": "https://ShevchenkoOl.github.io/image_search.git/",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /image_search/"
