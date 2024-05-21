@@ -1,0 +1,56 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+}
+
+.conteiner {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  background-color: #6ca6e4;
+}
+
+.search-form {
+  width: 400px;
+  display: flex;
+  border: 2px solid #ccc;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+
+.search-form input[type=text] {
+  border: none;
+  padding: 10px 20px;
+  outline: none;
+  flex: 1;
+  font-size: 16px;
+  border-radius: 30px 0 0 30px;
+}
+
+.search-form input[type=text]::-moz-placeholder {
+  color: #999;
+}
+
+.search-form input[type=text]::placeholder {
+  color: #999;
+}
+
+.search-form button {
+  border: none;
+  background: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+  border-radius: 0 30px 30px 0;
+}
+
+.search-form button:hover {
+  background: #0056b3;
+}/*# sourceMappingURL=index.css.map */
