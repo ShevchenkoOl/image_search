@@ -1,5 +1,5 @@
 # Image Search
-This project was built using the parcel project builder
+This project was built using the parcel project builder.
 
 ## How to Use the Repository
 
