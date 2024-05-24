@@ -1,23 +1,29 @@
 body {
   font-family: Arial, sans-serif;
   background: #f0f0f0;
+  margin: 0; /* Добавляем отступы для body */
+  padding: 0; /* Добавляем отступы для body */
 }
 .conteiner{
-  height: 80px;
   display: flex;
-  justify-content: center;
+  flex-direction: column; /* Содержимое будет располагаться в столбец */
   align-items: center;
+  justify-content: center;
+  //height: 100vh; /* Высота будет занимать 100% высоты видимой области */
+  height: 80px;
   margin-top: 0;
   background-color: #6ca6e4;
 }
 .search-form {
-  width: 400px;
+  width: 80%;
   display: flex;
   border: 2px solid #ccc;
   border-radius: 30px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px; /* Добавляем отступ снизу для формы */
 }
 
 .search-form input[type="text"] {
@@ -34,6 +40,7 @@ body {
 }
 
 .search-form button {
+  max-width: 30%;
   border: none;
   background: #007BFF;
   color: #fff;
@@ -47,4 +54,3 @@ body {
 .search-form button:hover {
   background: #0056b3;
 }
-
