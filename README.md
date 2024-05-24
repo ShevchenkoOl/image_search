@@ -6,7 +6,7 @@
 5. Use the public API of the [Pixabay](https://pixabay.com/api/docs/) service as a backend;
 6. The project also uses pagination;
 7. The [SimpleLightbox](https://simplelightbox.com/) library was used for a full-fledged gallery, namely, when you click on an image, it is displayed in a large version;
-8. In addition, the project uses the SASS processor to improve CSS.
+8. In addition, the project uses the SASS processor to improve CSS and while waiting for a response from the backend, a spinner is used.
 
 ## How to Use the Repository
 
