@@ -57,7 +57,16 @@ elements.form.addEventListener('submit', async event => {
   new SimpleLightbox('.gallery a', {
     captionsData: 'alt',
     captionDelay: 250,
-  });
+  }).refresh();
+
+  const { height: cardHeight } = document
+  .querySelector(".gallery")
+  .firstElementChild.getBoundingClientRect();
+
+window.scrollBy({
+  top: cardHeight * 2,
+  behavior: "smooth",
+});
 
   elements.input.value = '';
   if (images.length > 0) {
